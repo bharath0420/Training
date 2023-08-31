@@ -1,0 +1,82 @@
+.mynav{
+    background-color: coral;
+    height: 75px;
+    border: 5px solid red;
+   
+    
+}
+.nav{
+    background-color: chartreuse;
+    height: 30px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 25px;
+    
+    
+    
+}
+.navi{
+    background-color: blue;
+    height: 30px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 25px;
+   
+}
+.bar{background-color:violet;
+    height: 75px;
+    margin-top: 75px; 
+    
+
+}
+.box{ background-color: aquamarine;
+    height:1000px;
+    border: 5px solid red;
+
+}
+.lis{
+    background-color: darkorange;
+    height: 1000px;
+    border: 5px solid red;
+
+}
+.con{
+    background-color: honeydew;
+    height: 500px;
+    border: 5px solid red;
+
+}
+.ads{
+    background-color: dimgray;
+    height: 500px;
+    border: 5px solid red;
+}
+
+
+navii{
+    background-color: blue;
+    height: 30px;
+    width: 100px;
+    margin-left: 150px;
+    margin-top: 25px;
+    
+}
+.di{
+    background-color: black;
+    height:250px;
+    width: 500px;
+    margin-top: 19%;
+    margin-left: 13%;
+    border: 5px solid red;
+    
+    
+}
+.b{
+    background-color: chartreuse;
+    height: 30px;
+    width: 100px;
+    margin-left: 270px;
+    margin-top: 25px;
+    
+
+}
