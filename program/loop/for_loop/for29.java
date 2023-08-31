@@ -1,0 +1,1 @@
+/*Write a program to find LCM of any two numbers using HCF. */
