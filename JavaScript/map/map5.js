@@ -22,5 +22,24 @@ s=[
       'category':'fruit'
     }
   ]
-  function category(s)
-  
+  function category(y){
+    ob={}
+    x=y
+    ob[x]=[]
+    for(let i=0;i<s.length;i++){
+        if(x==s[i].category)
+      { // ob[x]=s.name
+       ob[x].push(s[i].name)
+      }
+    }
+    return ob
+  }
+ 
+  var dist = [];
+for (let i = 0; i < s.length; i++) {
+  if (!dist.includes(s[i].category))
+    dist.push(s[i].category);
+}
+a=dist.map(e=>category(e))
+// console.log(dist);
+console.log(a)
