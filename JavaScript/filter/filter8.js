@@ -1,0 +1,3 @@
+/* Write a function that takes an array of objects with a date property and returns a 
+new array with only the objects where the date is within a given range. 
+Use the filter method to accomplish this. */

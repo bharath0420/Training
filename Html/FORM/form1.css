@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+}
+.main{ background-color: blueviolet;
+    width: 50%;
+    height: 1000px;
+    
+    margin-left:25%;
+}
+.m1{
+    background-color: turquoise;
+    width: 80%;
+    height: 1000px;
+    padding-left: 20%;
+    
+   
+}
+.f1{
+    background-color: coral;
+    width: 75%;
+    height: 115px;
+    font-size: 20px;
+}
+.f2{
+    background-color: chartreuse;
+    width:75%;
+    height: 115px;
+    
+    font-size: 20px;
+    
+}
+
+.in{
+    height: 25px;
+    width: 75%;
+    
+}
+.in1{
+    height: 50px;
+    width: 75%;
+    background-color: cornflowerblue;
+    border: none;
+    
+}
+.in2
+{
+    height: 20px;
+}
