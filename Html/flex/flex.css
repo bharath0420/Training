@@ -1,0 +1,101 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    display: flex;
+    background-color: rgb(2, 2, 2);
+    height: 900px;
+    justify-content: space-evenly;
+    flex-direction:column;
+    
+}
+.block{
+    display: flex;
+    background-color: rgb(192, 141, 240);
+    height: 200px;
+    justify-content: space-around;
+    align-items:center;
+    
+}
+.block1{
+    display: flex;
+    background-color: rgb(103, 0, 198);
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+/* continer's css */
+.c1{
+    height: 45px;
+    width: 45px;
+    background-color: tomato;
+}
+.c2{
+    height: 40px;
+    width: 40px;
+    background-color:yellow;
+}
+.c3{
+    height: 45px;
+    width: 45px;
+    background-color:lime;
+}
+.exam{
+    display: flex;
+    height: 140px;
+    width: 400px;
+    background-color: beige;
+    
+    
+}
+.box{
+    display: flex;
+    background-color: beige;
+    height: 140px;
+    width: 400px;
+    justify-content: space-evenly;
+    
+}
+.box0{
+    
+   
+    width: 200px;
+    background-color: lightslategrey;
+    
+}
+.box1{
+    display: flex;
+    width: 200px;
+    background-color: lightslategrey;
+   
+    
+}
+.box2{
+    display: flex;
+    width: 200px;
+    background-color: lightslategrey;
+    justify-content: space-evenly;
+    
+}
+.box3{
+    display: flex;
+    width: 200px;
+    background-color: lightslategrey;
+    justify-content: space-between;
+}
+.box4{
+    display: flex;
+    width: 200px;
+    background-color: lightslategrey;
+    justify-content: space-around;
+}
+.box5{
+    display: flex;
+    width: 200px;
+    background-color: lightslategrey;
+    justify-content: center;
+    align-items: center;
+}
