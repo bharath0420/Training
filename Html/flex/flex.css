@@ -4,15 +4,15 @@ body{
 }
 .main{
     display: flex;
-    background-color: rgb(2, 2, 2);
-    height: 900px;
+  background-image: linear-gradient(160deg,#204060,#132639);
+    height: 1900px;
     justify-content: space-evenly;
     flex-direction:column;
     
 }
 .block{
     display: flex;
-    background-color: rgb(192, 141, 240);
+    
     height: 200px;
     justify-content: space-around;
     align-items:center;
@@ -20,7 +20,7 @@ body{
 }
 .block1{
     display: flex;
-    background-color: rgb(103, 0, 198);
+   
     height: 200px;
     justify-content: space-around;
     align-items: center;
@@ -43,6 +43,12 @@ body{
     width: 45px;
     background-color:lime;
 }
+.c4{
+    height: 40px;
+    width: 80px;
+    background-color:aqua;
+}
+
 .exam{
     display: flex;
     height: 140px;
@@ -51,51 +57,107 @@ body{
     
     
 }
-.box{
-    display: flex;
-    background-color: beige;
-    height: 140px;
-    width: 400px;
-    justify-content: space-evenly;
-    
+/*using order we targeting a particular object using it's id*/
+#y{
+   
+    order: -1;
+
 }
+#y1{
+    align-self: center;
+}
+/* type of alignment using flex on block level element(div) */
 .box0{
     
    
     width: 200px;
-    background-color: lightslategrey;
+    background-color: #000;
     
 }
 .box1{
     display: flex;
     width: 200px;
-    background-color: lightslategrey;
+    background-color: #000;
    
     
 }
 .box2{
     display: flex;
     width: 200px;
-    background-color: lightslategrey;
+    background-color: #000;
     justify-content: space-evenly;
     
 }
 .box3{
     display: flex;
     width: 200px;
-    background-color: lightslategrey;
+    background-color: #000;
     justify-content: space-between;
 }
 .box4{
     display: flex;
     width: 200px;
-    background-color: lightslategrey;
+    background-color: #000;
     justify-content: space-around;
 }
 .box5{
     display: flex;
     width: 200px;
-    background-color: lightslategrey;
+    background-color: #000;
     justify-content: center;
     align-items: center;
+}
+.box6{
+    display: flex;
+    width: 200px;
+    background-color: #000;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+.box7{
+    display: flex;
+    width: 200px;
+    background-color: #000;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+}
+.box8{
+    display: flex;
+    width: 200px;
+    background-color: #000;
+    justify-content: space-evenly;
+    
+}
+.box9{
+    display: flex;
+    width: 200px;
+    background-color: #000;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.box10{
+    display: flex;
+    width: 200px;
+    background-color: #000;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+    
+}
+/* flex-flow=flex-direction+flex-wrap*/
+.box11{
+    display: flex;
+    width: 200px;
+    background-color: #000;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    
+}
+.box12{
+    display: flex;
+    width: 200px;
+    background-color: #000;
+    justify-content: space-between;
+    flex-flow:   column wrap;
+    
 }
