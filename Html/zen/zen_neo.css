@@ -1,0 +1,180 @@
+
+@font-face {
+    font-family: myFont;
+    src: url(/font/Oxanium.woff2);
+    font-family: myFont2;
+    src: url(/font/Cyberpunk.otf)
+  }   
+html, body { 
+	font-family: 'myFont', sans-serif;
+	font-size: small; 
+	background-color: #f8ef02;
+    color: aqua;
+	padding: 0px;
+	margin: 0px;
+	}
+.page-wrapper {
+        position: relative;
+        width: 640px;
+        background-color: black;
+        border-top: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        border-left: 5px solid rgb(255, 0, 0);
+        border-right: 7px solid rgb(31, 255, 6);
+        margin: auto;
+        margin-bottom: 0px;
+        overflow: hidden; 
+    }
+h1,h2,h3{
+    font-family: 'myFont2', sans-serif; 
+    color: #f8ef02
+}  
+.intro {
+    background:  url(/image/popbg1_06.jpg)   no-repeat;
+    background-size: 650px;
+    margin: 0px;
+    padding: 1px;}
+ header { 
+        width: 640px;
+        position: relative;
+        height: 315px;
+        
+      text-align: center;
+        margin: 0px;
+        padding-top: 140px;
+        margin-bottom: 0px;
+        padding-left:20px;
+        z-index: 100;
+    }
+    .summary {
+       border: 2px solid hotpink;
+       border-radius: 15px 50px;
+        width: 207px;
+        height: 110px;
+        position: relative;
+        padding: 0px;
+        right: 10px;
+        top: 0px;
+        float: right;
+        text-align: center;
+    }
+    .summary p:last-child {
+        border: 2px solid hotpink;
+        border-radius: 50px 15px;
+        display: block;
+        position: relative;
+        top: 50px;
+        bottom: 0px;
+        margin: 0px;
+        margin-left: 50px;
+        padding: 0px;
+        
+    }	
+    .preamble{
+        position: relative;
+        width: 400px;
+        border: 2px solid #f8ef02;
+        border-radius: 0px 15px;
+        padding-left: 5px;
+
+    }	
+    .preamble p:nth-child(4) {
+        background: url(/image/2100937_d3653.png) 45% 100%  no-repeat;
+        padding-bottom: 95px;
+        background-size: 150px;
+        }
+    .preamble h3{
+        text-align: center;
+    }
+    .preamble p
+    { font-variant: small-caps;
+        color: aqua;
+        font-weight: bold;
+        font-size: small;
+        line-height: 100%;
+        text-align: center;
+        
+
+    }
+    .preamble p:nth-child(2):first-letter {
+        color: #f8ef02;
+        font-size: larger;
+       }
+    .supporting {
+        position: relative;
+        width: 100%;
+        padding-top: 1px;
+        margin-top: 30px;
+    }
+    .supporting h3 {
+        text-align:center ;	
+    }
+    .supporting footer { 
+        text-align: right; 
+        padding: 0px;
+        width: 640px;
+        height: 191px;
+        margin-left: 0px;
+        padding-left: 0px;
+        margin-bottom: 1px;
+        position: relative;
+    }
+.supporting {
+    position: relative;
+    width: 400px;
+    border: 2px solid hotpink;
+    border-radius: 0px 15px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    }
+    .explanation{
+
+        width: 400px;
+        border: 2px solid #f8ef02;
+        border-radius: 0px 15px;
+        padding-left: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .participation{
+    width: 400px;
+    border: 2px solid #f8ef02;
+    border-radius: 0px 15px;
+    padding-left: 5px;
+    margin-top: 15px;
+    padding-bottom: 5px;
+}
+    
+.supporting div{
+    width: 400px;
+        border: 2px solid #f8ef02;
+        border-radius: 0px 15px;
+        padding-left: 5px;
+        margin-top: 15px;
+        padding-bottom: 5px;
+}
+.explanation p:nth-child(2):first-letter {
+    color: #f8ef02;
+        font-size: larger;
+}
+.participation p:nth-child(2):first-letter {
+    color: #f8ef02;
+        font-size: larger;
+}
+.benefits p:nth-child(2):first-letter {
+    color: #f8ef02;
+        font-size: larger;
+}
+.requirements p:nth-child(2):first-letter{
+    color: #f8ef02;
+    font-size: larger;
+}
+.requirements p:nth-child(6) {
+    background: transparent url(/image/lovepik-neon-city-frame-png-image_401036139_wh1200.png) 45% 100%  no-repeat;
+    padding-bottom: 95px;
+    background-size: 150px;
+    } 
+        
+        
