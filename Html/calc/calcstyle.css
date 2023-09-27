@@ -32,9 +32,10 @@ body{
     font-size: xxx-large;
     background-color: rgb(225, 146, 43);
     
+    
 
 }
-.buttons{
+.box{
     display: flex;
     flex-wrap: wrap;
     
